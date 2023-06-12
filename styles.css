@@ -27,7 +27,7 @@ a {
 
 .btn:hover {
   cursor: pointer;
-  background-color: black;
+  background-color: rgb(34, 34, 34);
 }
 
 .titulos {
@@ -72,8 +72,41 @@ a {
 
 /* banner*/
 #banner {
-  height: 100vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  background: url(/img/EFiUb7.jpg)no-repeat center center/cover;
+
+  /*  Overlay*/
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: color;
+}
+
+#banner-container {
+  text-align: center;
+}
+
+#banner-container h2 {
+  font-size: 3.5rem;
+}
+
+#banner-container p {
+  font-size: 1.2rem;
+  padding: 7px, 0;
+}
+
+/* Parceiros */
+
+#parceiros {
+  width: 100%;
+  background: white;
+  color: black;
+  padding: 50px;
+}
+
+#logos {
+  display: inline-block;
+  width: 25%;
 }
