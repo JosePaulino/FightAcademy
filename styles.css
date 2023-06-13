@@ -101,12 +101,70 @@ a {
 
 #parceiros {
   width: 100%;
-  background: white;
+  background: #b8b8b8;
   color: black;
+  padding: 20px;
+}
+
+#parceiros-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  padding: 15px;
+}
+
+.logos {
+  display: inline-block;
+}
+
+/* Sobre */
+#features {
+  width: 100%;
+  background-color: black;
+  color: white;
   padding: 50px;
 }
 
-#logos {
-  display: inline-block;
-  width: 25%;
+#features-container {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 50px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Servico*/
+#servicos {
+  width: 100%;
+  padding: 50px;
+}
+
+.servico-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items {
+  width: 650px;
+}
+
+.items #item {
+  display: flex;
+  padding: 10px;
+  margin: 15px 0;
+  font-size: 1.2rem;
 }
