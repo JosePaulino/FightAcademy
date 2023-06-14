@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
   <title>Fight Academy</title>
 </head>
 <body>
@@ -12,9 +13,9 @@
     <div id="navbar-container">
       <h1 class="logo">logo</h1>
       <ul id="navbar-items">
-        <li>Início</li>
-        <li>Sobre</li>
-        <li>Galeria</li>
+        <li><a href="#banner">Início</a></li>
+        <li><a href="#features">Sobre</a></li>
+        <li><a href="#galeria">Galeria</a></li>
       </ul>
     </div>
   </nav>
@@ -40,7 +41,7 @@
 
   <!--Sobre--> 
   <section id="features">
-    <div class="titulos">Serviços</div>
+    <div class="titulos">Sobre</div>
       <div id="features-container">
 
         <div class="features">
@@ -70,21 +71,21 @@
         <div class="item">
           <i class="fa-solid fa-bolt fa-2x" style="color: #000000;"></i>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptate blanditiis, dolorum eius in perferendis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptate 
           </p>
         </div>
 
         <div class="item">
           <i class="fa-solid fa-bolt fa-2x" style="color: #000000;"></i>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptate blanditiis, dolorum eius in perferendis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptate 
           </p>
         </div>
 
         <div class="item">
           <i class="fa-solid fa-bolt fa-2x" style="color: #000000;"></i>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptate blanditiis, dolorum eius in perferendis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptate 
           </p>
         </div>
 
@@ -98,11 +99,12 @@
     </div>
   </section>
 
+  <!-- Testemunhos -->
   <div id="testemunhos">
-    <div class="titulo">O que acham de nós</div>
+    <div class="titulos">O que acham de nós</div>
     <div id="testemunho-container">
       <div class="testemunho">
-        <img src="img/Sem título.png" alt="" class="testemunho-imagem">
+        <img src="img/cliente1.jpg" alt="" class="testemunho-imagem">
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ex ullam explicabo esse sequi neque.
         </p>
@@ -117,7 +119,7 @@
   </div>
 
   <section id="galeria">
-    <div class="titulo">Galeria</div>
+    <div class="titulos">Galeria</div>
       <div id="galeria-container">
         <img src="img/arte2.jpg" alt="" class="galeria-imagem">
         <img src="img/luta.png" alt="" class="galeria-imagem">
@@ -133,5 +135,12 @@
   </footer>
   <!-- Font awesome -->
   <script src="https://kit.fontawesome.com/4b178113d0.js" crossorigin="anonymous"></script>
+
+  <!-- jQuery CDN-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!-- Arquivo Js-->
+  <script src="js/main.js"></script>
 </body>
 </html>
